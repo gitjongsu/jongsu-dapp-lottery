@@ -1,7 +1,6 @@
 // src/lottery.js
 import web3 from './web3';
 
-const address = 'Deploy단계에서 저장했던 address를 입력합니다.';
-const abi = 'Deploy단계에서 저장했던 interface를 입력합니다.';
-
+const address = '0x3500F3bd377984c56481BC6585d891C8AA6376fa'; //'Deploy단계에서 저장했던 address를 입력합니다.'; //0x13cC014f37a297a59d3608E4288ECdE48506cc50
+const abi = [{"constant":true,"inputs":[],"name":"manager","outputs":[{"name":"","type":"address"}],"payable":false,"stateMutabili\r\nty":"view","type":"function"},{"constant":false,"inputs":[],"name":"pickWinner","outputs":[],"payable":false,"stateMutability":"no\r\nnpayable","type":"function"},{"constant":true,"inputs":[],"name":"getPlayers","outputs":[{"name":"","type":"address[]"}],"stateMutability":"view","type":"function","payable":false},{"constant":false,"inputs":[],"name":"enter","outputs":[],"payable":true,"type":"function","state\r\nMutability":"payable"},{"constant":true,"inputs":[{"name":"","type":"uint256"}],"name":"players","payable":false,"stateMutability":"view","type":"function","outputs":[{"na\r\nme":"","type":"address"}]},{"inputs":[],"payable":false,"type":"constructor","stateMutabilit\r\ny":"nonpayable"}];
 export default new web3.eth.Contract(abi, address);

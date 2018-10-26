@@ -13,5 +13,18 @@
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject"
-  }
+  },
+  "description": "- 이 repo를 git clone 합니다.\r - `lottery.js` 파일 내부를 수정합니다.\r - `npm run start` 명령어로 실행 후 `localhost:3000`에서 확인 할 수 있습니다.",
+  "main": "index.js",
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/5chang2/lottery-react.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/5chang2/lottery-react/issues"
+  },
+  "homepage": "https://github.com/5chang2/lottery-react#readme"
 }
